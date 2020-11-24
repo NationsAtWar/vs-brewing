@@ -6,7 +6,7 @@
 		waterTightContainerProps: {
 			containable: true,
 			itemsPerLitre: 1,
-			texture: { base: "brewing:block/liquid/whisky" },
+			texture: { base: "block/liquid/whisky" },
 			allowSpill: true,
 			whenSpilled: { 
 				action: "DropContents",
@@ -14,7 +14,7 @@
 			}
 		}
 	},
-	texture: { base: "brewing:item/liquid/whiskyportion" },
+	texture: { base: "item/liquid/whiskyportion" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	maxstacksize: 16,
 	materialDensity: 200

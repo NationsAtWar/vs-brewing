@@ -1,0 +1,8 @@
+{
+	code: "whisky",
+	sealHours: 1,
+	ingredients: [
+		{ type: "item", code: "grain-*", name: "grain", quantity: 1, allowedVariants: ["rye", "spelt", "rice", "flax" ] },
+	],
+	output: { type: "item", code: "whiskyportion", stackSize: 1 }
+}
