@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "brewing",
+  "name": "Basic Brewing",
+  "description": "Getting started with alcohol.",
+  "authors": ["Sheez"],
+  "version": "0.1.0",
+  "gameversions": ["1.13.4+"],
+}
+

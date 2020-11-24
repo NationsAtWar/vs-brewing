@@ -1,0 +1,21 @@
+{
+	code: "whiskyportion",
+	class: "ItemLiquidPortion",
+	matterState: "liquid",
+	attributes: {
+		waterTightContainerProps: {
+			containable: true,
+			itemsPerLitre: 1,
+			texture: { base: "brewing:block/liquid/whisky" },
+			allowSpill: true,
+			whenSpilled: { 
+				action: "DropContents",
+				stack: { type: "item", code: "whiskyportion" } 
+			}
+		}
+	},
+	texture: { base: "brewing:item/liquid/whiskyportion" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	maxstacksize: 16,
+	materialDensity: 200
+}
